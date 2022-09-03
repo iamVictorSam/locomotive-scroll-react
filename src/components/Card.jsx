@@ -4,14 +4,15 @@ import "./card-style.css";
 function Card(props) {
   return (
     <div
-      data-scroll
-      data-scroll-speed="6"
-      data-scroll-class="animIntro"
-      class="styleCard container"
+    //   data-scroll
+    //   data-scroll-class="fadeIn"
+    //   data-scroll-repeat
+      class="styleCard container  "
+      style={{ backgroundImage: '' }}
     >
       <div className="styleImage">
         <img
-          style={{ width: props.width + "px", marginTop: "-8%" }}
+        //   style={{ width: props.width + "px", marginTop: "-8%" }}
           src={props.image}
           alt="Seattle"
         />

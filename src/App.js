@@ -9,13 +9,11 @@ function App() {
   const containerRef = useRef(null);
   const { pathname } = useLocation();
 
-
   return (
     <LocomotiveScrollProvider
       options={{
         smooth: true,
         repeat: true,
-        multiplier: 4,
       }}
       watch={[]}
       containerRef={containerRef}
@@ -26,10 +24,9 @@ function App() {
       onUpdate={() => console.log("Updated, but not on location change!")}
     >
       <main data-scroll-container ref={containerRef}>
-
-        <Introduction  />
-        <About />
+        <Introduction />
         <Footer />
+        <About />
       </main>
     </LocomotiveScrollProvider>
   );

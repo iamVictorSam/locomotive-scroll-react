@@ -1,12 +1,39 @@
 .about-section{
-    height: 90vh;
     background-color: brown;
-    
-}   
-
-section {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    flex-direction: column;
+    
+}   
+
+
+
+.about {
+    font-size: 3rem;
+    padding: 2.5rem;
 }
+
+input {
+    height: 3.5rem;
+    width: 30rem;
+    border-radius: 5px;
+    border: 0;
+    display: block;
+    margin: 1rem;
+}
+
+textarea {
+    height: 9rem;
+    width: 30rem;
+    border: 0;
+    border-radius: 2px;
+    display: block;
+    margin: 1rem;
+}
+
+::placeholder {
+    text-align: center;
+    font-size: 1.1rem;
+  }

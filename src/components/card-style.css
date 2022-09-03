@@ -1,6 +1,8 @@
 /* Sticky footer styles */
 .container {
-  max-width: 20rem;
+  max-width: 50rem;
+  height: 30rem;
+  display: block;
 }
 
 .styleCard {
@@ -17,7 +19,7 @@
 .styleImage {
   background-color: lightGray;
   border-radius: 8px 8px 0 0;
-  max-height: 140px;
+  max-height: 20rem;
   overflow: hidden;
 }
 
@@ -39,8 +41,11 @@
   margin: 8px 0 0 0;
 }
 
+.custom-class {
+    opacity: 0;
+}
 
-
-.animIntro {
+.fadeIn {
     opacity: 1;
+    transition: opacity 1s;
 }
