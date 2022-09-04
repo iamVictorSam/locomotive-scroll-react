@@ -1,12 +1,11 @@
 .footer-section{
-    /* height: 90vh; */
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-}
+}       
 
 .case {
     font-size: 3rem;

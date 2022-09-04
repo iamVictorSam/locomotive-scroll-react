@@ -17,11 +17,11 @@ function App() {
       }}
       watch={[]}
       containerRef={containerRef}
-      location={pathname}
-      onLocationChange={(scroll) =>
-        scroll.scrollTo(0, { duration: 0, disableLerp: true })
-      } // If you want to reset the scroll position to 0 for example
-      onUpdate={() => console.log("Updated, but not on location change!")}
+      // location={pathname}
+      // onLocationChange={(scroll) =>
+      //   scroll.scrollTo(0, { duration: 0, disableLerp: true })
+      // } // If you want to reset the scroll position to 0 for example
+      // onUpdate={() => console.log("Updated, but not on location change!")}
     >
       <main data-scroll-container ref={containerRef}>
         <Introduction />

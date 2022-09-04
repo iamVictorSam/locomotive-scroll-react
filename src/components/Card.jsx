@@ -7,7 +7,7 @@ function Card(props) {
     //   data-scroll
     //   data-scroll-class="fadeIn"
     //   data-scroll-repeat
-      class="styleCard container  "
+      className="styleCard container  "
       style={{ backgroundImage: '' }}
     >
       <div className="styleImage">
