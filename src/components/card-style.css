@@ -41,11 +41,4 @@
   margin: 8px 0 0 0;
 }
 
-.custom-class {
-    opacity: 0;
-}
 
-.fadeIn {
-    opacity: 1;
-    transition: opacity 1s;
-}
