@@ -1,6 +1,6 @@
 import Introduction from "./components/intro/Introduction";
-import About from "./components/about/About";
-import Footer from "./components/footer/footer";
+import Work from "./components/work/Work";
+import Message from "./components/message/Message";
 import { useRef } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 // import { useLocation } from "react-router-dom";
@@ -14,6 +14,7 @@ function App() {
       options={{
         smooth: true,
         repeat: true,
+        multiplier: 2,
       }}
       watch={[]}
       containerRef={containerRef}
@@ -25,8 +26,8 @@ function App() {
     >
       <main data-scroll-container ref={containerRef}>
         <Introduction />
-        <Footer />
-        <About />
+        <Work />
+        <Message />
       </main>
     </LocomotiveScrollProvider>
   );

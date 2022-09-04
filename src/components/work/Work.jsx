@@ -1,9 +1,9 @@
-import "./footer-style.css";
+import "./Work-style.css";
 import Card from "../Card";
 
-const footer = () => {
+const Work = () => {
   return (
-    <section data-scroll data-scroll-section  className="footer-section">
+    <section data-scroll data-scroll-section  className="work-section">
     <p className='case'>CASE STUDIES <br />Latest Works</p>
     
       <Card
@@ -28,4 +28,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Work;

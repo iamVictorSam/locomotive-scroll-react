@@ -3,7 +3,7 @@ body{
     overflow: hidden;
 }
 
-.about-section{
+.message-section{
     background-color: black;
     display: flex;
     justify-content: center;
