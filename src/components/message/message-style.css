@@ -19,8 +19,8 @@ body{
 }
 
 .fadeIn {
-    opacity: 2;
-    transition: opacity 3s;
+    opacity: 1;
+    transition: opacity 4s ;
 }
 .message {
     font-size: 3rem;

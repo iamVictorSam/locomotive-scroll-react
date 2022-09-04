@@ -15,6 +15,7 @@ function App() {
         smooth: true,
         repeat: true,
         multiplier: 2,
+        lerp: 0.1 ,
       }}
       watch={[]}
       containerRef={containerRef}
@@ -28,7 +29,7 @@ function App() {
         <Introduction />
         <Work />
         <Message />
-      </main>
+      </main> 
     </LocomotiveScrollProvider>
   );
 }
