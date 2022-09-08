@@ -3,7 +3,12 @@ import "./intro-style.css";
 
 const Introduction = () => {
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="6" className="intro-section">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="6"
+      className="intro-section"
+    >
       <section className="intro-title">
         <h1 data-scroll data-scroll-speed="9">
           Isaac Junior
