@@ -4,8 +4,8 @@ import "./intro-style.css";
 const Introduction = () => {
   return (
     <div
-      data-scroll
       data-scroll-section
+      data-scroll
       data-scroll-speed="6"
       className="intro-section"
     >

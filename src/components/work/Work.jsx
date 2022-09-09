@@ -3,26 +3,26 @@ import Card from "../Card";
 
 const Work = () => {
   return (
-    <section data-scroll data-scroll-section  className="work-section">
-    <p className='case'>CASE STUDIES <br />Latest Works</p>
-    
-      <Card
-        image="https://2e4efd3ddd5ec0b50028-7d521b783d142fa14612a0034dea730a.ssl.cf2.rackcdn.com/gallery/2008/08/3190854_1316217600_gallery_image_3072799.jpg"
-        title="Design & React Meetup"
-        location="Downtown, Seattle WA"
-        description="Designers react to JavaScript. Join us in our monthly meetup where designers gather to share newbie React knowledge."
+    <section id="case-stick" data-scroll-section className="work-section">
+      <p className="case" data-scroll  data-scroll-sticky data-scroll-target="#case-stick">
+        CASE STUDIES <br />
+        Latest Works
+      </p>
+
+      <Card data-scroll data-scroll-speed="9"
+        image="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
+        title="Lorem Ipsum"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
       />
-      <Card
-        image="https://2e4efd3ddd5ec0b50028-7d521b783d142fa14612a0034dea730a.ssl.cf2.rackcdn.com/gallery/2008/08/3190854_1316217600_gallery_image_3072799.jpg"
-        title="Design & React Meetup"
-        location="Downtown, Seattle WA"
-        description="Designers react to JavaScript. Join us in our monthly meetup where designers gather to share newbie React knowledge."
+      <Card data-scroll data-scroll-speed="9"
+        image="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
+        title="Lorem Ipsum"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
       />
-      <Card
-        image="https://2e4efd3ddd5ec0b50028-7d521b783d142fa14612a0034dea730a.ssl.cf2.rackcdn.com/gallery/2008/08/3190854_1316217600_gallery_image_3072799.jpg"
-        title="Design & React Meetup"
-        location="Downtown, Seattle WA"
-        description="Designers react to JavaScript. Join us in our monthly meetup where designers gather to share newbie React knowledge."
+      <Card data-scroll data-scroll-speed="9"
+        image="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
+        title="Lorem Ipsum"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
       />
     </section>
   );

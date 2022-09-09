@@ -14,7 +14,7 @@ const Message = () => {
       <div
         className=" op-class"
         data-scroll
-        data-scroll-repeat
+        data-scroll-repeat="true"
         data-scroll-class="fadeIn"
         data-scroll-speed="2"
       >
