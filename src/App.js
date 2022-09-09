@@ -74,18 +74,12 @@ function App() {
         smooth: true,
         repeat: true,
         multiplier: 1,
-        lerp: 0.1,
       };
 
   return (
     <LocomotiveScrollProvider
       options={options}
       containerRef={ref}
-      // location={pathname}
-      // onLocationChange={(scroll) =>
-      //   scroll.scrollTo(0, { duration: 0, disableLerp: true })
-      // } // If you want to reset the scroll position to 0 for example
-      // onUpdate={() => console.log("Updated, but not on location change!")}
     >
       <main data-scroll-container ref={ref}>
         <Introduction />

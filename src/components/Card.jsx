@@ -5,10 +5,10 @@ function Card(props) {
   return (
     <div
       data-scroll
-    //   data-scroll-class="fadeIn"
+      // data-scroll-class="fadeIn"
       // data-scroll-repeat="true"
     data-scroll-speed="9"
-      className="card container  "
+      className="card container "
       style={{ backgroundImage: '' }}
     >
       <div className="cardImg">

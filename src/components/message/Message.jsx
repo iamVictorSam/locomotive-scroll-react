@@ -8,7 +8,12 @@ const Message = () => {
       data-scroll-speed="6" //   data-scroll
       className="message-section"
     >
-      <p data-scroll className="message">
+      <p
+        data-scroll
+        data-scroll-direction="horizontal"
+        data-scroll-speed="2"
+        className="message"
+      >
         Drop a Message
       </p>
       <div
