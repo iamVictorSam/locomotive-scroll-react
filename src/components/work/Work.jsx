@@ -9,17 +9,17 @@ const Work = () => {
         Latest Works
       </p>
 
-      <Card data-scroll data-scroll-speed="9"
+      <Card 
         image="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
         title="Lorem Ipsum"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
       />
-      <Card data-scroll data-scroll-speed="9"
+      <Card 
         image="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
         title="Lorem Ipsum"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
       />
-      <Card data-scroll data-scroll-speed="9"
+      <Card 
         image="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
         title="Lorem Ipsum"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate"
