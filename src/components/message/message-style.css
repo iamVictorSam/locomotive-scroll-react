@@ -1,5 +1,6 @@
 
 
+
 .message-section{
     background-color: black;
     display: flex;
@@ -11,14 +12,6 @@
     
 }   
 
-.op-class{
-    opacity: 0;
-}
-
-.fadeIn {
-    opacity: 1;
-    transition: opacity 4s ;
-}
 .message {
     font-size: 3rem;
     padding: 2.5rem;
@@ -49,3 +42,13 @@ textarea {
     font-size: 1.1rem;
     color: black;
   }
+
+  /* Added This */
+.op-class{  
+    opacity: 0;
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: opacity 4s ;
+}
