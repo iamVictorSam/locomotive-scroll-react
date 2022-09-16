@@ -16,7 +16,7 @@ const Introduction = () => {
         <h1 data-scroll data-scroll-speed="9">
           Isaac Junior
           <br />A Frontend Engineer and Technical writer with a deep focus on
-          creating pixel-perfect designs
+          creating pixel-perfect designs.
         </h1>
       </div>
     </section>
